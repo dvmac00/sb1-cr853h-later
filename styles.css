@@ -1,0 +1,57 @@
+/* AI Plugin Styles */
+
+.ai-plugin-modal {
+  padding: 20px;
+}
+
+.ai-plugin-modal h2 {
+  margin-bottom: 15px;
+}
+
+.ai-plugin-chat {
+  height: 300px;
+  overflow-y: scroll;
+  border: 1px solid var(--background-modifier-border);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.ai-plugin-chat-message {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.ai-plugin-chat-message.user {
+  background-color: var(--background-secondary);
+}
+
+.ai-plugin-chat-message.assistant {
+  background-color: var(--background-primary-alt);
+}
+
+.ai-plugin-input {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.ai-plugin-button {
+  background-color: var(--interactive-accent);
+  color: var(--text-on-accent);
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ai-plugin-button:hover {
+  background-color: var(--interactive-accent-hover);
+}
+
+.ai-plugin-settings {
+  padding: 10px;
+}
+
+.ai-plugin-settings .setting-item {
+  margin-bottom: 15px;
+}
